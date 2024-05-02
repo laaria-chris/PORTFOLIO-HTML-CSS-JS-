@@ -338,7 +338,7 @@ span{
     margin: 1rem 0 3rem;
 }
 
-.portfolio{
+.portfolio {
     padding-bottom: 10rem;
 }
 
@@ -348,22 +348,23 @@ span{
 
 .portfolio .portfolio-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); /* Set 2 columns */  
     align-items: center;
+    justify-items: center; /* Align items in the center of the grid */
     grid-gap: 2.5rem;
 }
 
 .portfolio-container .portfolio-box {
     position: relative;
     display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Align items in the center */
     border-radius: 2rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
     overflow: hidden;
-
+    height: 100%; /* Ensure grid-box expands to fill row height */
 }
 
-.portfolio-box img{
-    max-width: 100%; /* Ensure images don't exceed their container width */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure images fill the container */
+.portfolio .portfolio-container .portfolio-box img {
+    width: 100%; /* Set the width to 100% to fill the grid cell */ 
 }
