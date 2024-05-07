@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio Website</title>
 
+
+
+    <!-- Swipper css-->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <!-- box icons-->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -25,7 +32,9 @@
         <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact</a>
       </nav>
+
       <div class="bx bx-moon" id="darkMode-icon"></div>
+      <div class="bx bx-menu" id="menu-icon"></div>
     </header>
     <!--home section design-->
     <section class="home" id="home">
@@ -210,6 +219,77 @@
 
     </div>
 </section>
+
+<!-- Testimonial design section-->
+<div class="testimonial-container">
+  <h2 class="heading">Valuable <span>Testimonial</span></h2>
+ 
+  <div class="testimonial-wrapper">
+    <div class="testimonial-box mySwiper"> <!-- Corrected class name -->
+      <div class="testimonial-content swiper-wrapper">
+        <div class="testimonial-slide swiper-slide">
+          <img src="Images/Testimonial1.png" alt="">
+          <h3>Joseph Kabera-(Front End Developer)</h3>
+          <p>Your portfolio is like an amalgamation of your personal and
+            professional story, where action verbs infuse your achievements with a
+            sense of dynamism, illustrating your proactive approach and can-do
+            attitude. These words speak to your unique qualities, highlighting
+            your strengths and potential.</p>
+        </div>
+        <div class="testimonial-slide swiper-slide">
+          <img src="Images/Testimonial2.png" alt="">
+          <h3>Joshua Kazungu-(Front End Developer)</h3>
+          <p>Your portfolio is like an amalgamation of your personal and
+            professional story, where action verbs infuse your achievements with a
+            sense of dynamism, illustrating your proactive approach and can-do
+            attitude. These words speak to your unique qualities, highlighting
+            your strengths and potential.</p>
+        </div>
+
+        <div class="testimonial-slide swiper-slide">
+          <img src="Images/Testimonial3.png" alt="">
+          <h3>Laaria Chris-(Front End Developer)</h3>
+          <p>Your portfolio is like an amalgamation of your personal and
+            professional story, where action verbs infuse your achievements with a
+            sense of dynamism, illustrating your proactive approach and can-do
+            attitude. These words speak to your unique qualities, highlighting
+            your strengths and potential.</p>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</div>
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me!</span></h2>
+  <form action="#">
+      <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email Address">
+      </div>
+      <div class="input-box">
+          <input type="tel" placeholder="Mobile Number">
+          <input type="text" placeholder="Email Subject">
+      </div>
+      <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+  </form>
+</section>
+ <!-- Footer design-->
+ <footer class="footer">
+  <div class="footer-text">
+    <p> Copyright &copy: 2023 by LaariaChris | All Right Reserved.</p>
+  </div>
+  <div class="footer-iconTop">
+    <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+  </div>
+ </footer>
+
+
+  <!-- Swiper Js-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
 
