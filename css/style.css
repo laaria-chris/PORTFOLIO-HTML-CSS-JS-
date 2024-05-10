@@ -643,6 +643,14 @@ span{
     #menu-icon {
         display: block;
     }
+
+    #darkMode-icon {
+        position: absolute;
+        right: 7rem;
+        font-size: 2.6rem;
+        color: var(--text-color);
+        margin-bottom: .1rem;
+    }
     .navbar {
         position: absolute;
         top: 100%;
@@ -652,6 +660,12 @@ span{
         background: var(--bg-color);
         border-top: .1rem solid rgba(0,0,0, .2);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        display: none;
+
+    }
+
+    .navbar .active {
+        display: block;
     }
 
     .navbar a{
@@ -660,4 +674,64 @@ span{
         margin: 3rem 0;
         color: var(--text-color);
     }
+
+    .navbar a:nth-child(1),
+    .navbar a:nth-child(2) {
+          color: var(--main-color);
+    }
+
+    .navbar a::before{
+        display: none;
+   }
+
+   .home {
+    padding: 0 3% 23rem;
+    justify-content: center;
+    text-align: center;
+   }
+
+   .home-content h3 {
+    font-size: 2.6rem;
+   }
+
+   .home-content h1 {
+    font-size: 5rem;
+   }
+   .home-content .social-Media a {
+    margin: 2.5rem .75rem 3rem;
+   }
+
+   .home .profession-container {
+    left: 0;
+    width: 100%;
+    height: 100%;
+   }
+
+   .home .profession-container .profession-box {
+    position: fixed;
+    top: 60%;
+    left: 0;
+    border-radius: 0;
+    width: 100%;
+   }
+   .home .profession-box .profession{
+    padding: 0 13px;
+    left: auto;
+    transform-origin: 0;
+   }
+
+
+   .home .profession-box .profession:nth-child(1) {
+        transform: rotate(-90deg) translate()
+   }
+
+   .home .profession-container .overlay {
+    position: fixed;
+    top: 70rem;
+    left: 50%;
+    right: 0;
+    transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
+    border-width:  23.9rem;
+   }
+
 }
