@@ -14,7 +14,7 @@
     --bg-color: #fdfdfd;
     --text-color: #333;
     --main-color: #754ef9;
-    --white-color: #fdfdfd;
+    --white-color: #0b061f;
     --shadow-color: rgba(0, 0, 0, .2);
 }
 
@@ -384,7 +384,7 @@ span{
 
 .portfolio .portfolio-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Set 2 columns */  
+    grid-template-columns: repeat(2, 1fr); /* Set 2 columns */  
     align-items: center;
     justify-items: center; /* Align items in the center of the grid */
     grid-gap: 2.5rem;
