@@ -303,6 +303,10 @@ span{
     width: 40vw;
 }
 
+.about-content-row {
+    text-align: center;
+}
+
 .heading {
     font-size: 4.5rem;
     text-align: center;
@@ -324,6 +328,70 @@ span{
     
 }
 
+
+.about-content-row ol {
+    font-size: 1.5rem;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+.tech-list {
+    font-size: 1.2rem;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tech-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .tech-list li:last-child {
+    border-bottom: none;
+  }
+
+
+
+  .education {
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .education-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .education-content-row {
+    margin-bottom: 50px;
+  }
+  
+  .education-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .education-list li {
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+  
+  .education-list li span {
+    font-weight: bold;
+    font-size: 28px;
+  }
+  
+  .heading {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .heading span {
+    color: #007bff;
+  }
 .services{
     min-height: auto;
     padding-bottom: 7rem;
@@ -431,10 +499,10 @@ span{
     opacity: 1;
 }
 .portfolio-layer h4{
-    font-size: 3rem
+    font-size: 24px;
 }
 .portfolio-layer p{
-    font-size: 1.6rem;
+    font-size: 24px;
     margin: .3rem 0 1rem;
 }
 .portfolio-layer a{
